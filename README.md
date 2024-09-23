@@ -1,8 +1,24 @@
 # 🌩️ Weather Watch
 
 Introducing *Weather Watch*, the app that delivers accurate weather forecasts, ensuring you’re always prepared for the day’s weather with a smile!
+![Screenshot_1727080310](https://github.com/user-attachments/assets/e5d93753-b50e-4c3d-9411-a163f2053abf)
+![Screenshot_1727080336](https://github.com/user-attachments/assets/841d3d39-1056-4f69-96fd-d03d78f8efef)
+![Screenshot_1727080399](https://github.com/user-attachments/assets/efedd748-8620-4775-9e58-b9aabf304b9e)
 
-This task is designed to evaluate your proficiency in mobile app development, particular with React Native and TypeScript.
+# Code Details
+The folder strucutre of the application is - 
+- screens -> these are where all the containers are, the app screens.
+- componenets - These contain files, which has various basic or complex building blocks used in the screens
+- helpers - these are just function, which have complex logic and parsing.
+- store - we are using redux toolkit for global state management and rtk query as the middleware
+- navigation - we are using react-navigation for the app navigation, all of it's components reside in this folder.
+
+# Running
+We are using expo for this application.
+You'll need to install using this command. The underneath packages, use node version 20.
+ - `nvm use 20 && npm install --legacy-peer-deps`
+ - `npm start`
+That's it, and that should get you started!
 
 ## Exercise
 
@@ -47,4 +63,7 @@ Create a mobile application using React Native that encompasses the following:
 
 Submit a link to your forked repository with your application contents. Make sure the link is accessible.
 
+
 **Happy Coding**
+
+
